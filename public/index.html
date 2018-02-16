@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-Cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/service/mainService.js"></script>
+    <script src="scripts/controllers/mainController.js"></script>
+    <script src="scripts/controllers/homeController.js"></script>
+    <script src="scripts/controllers/mobileController.js"></script>
+</head>
+
+<body ng-app="eCart" ng-controller="mainCtrl">
+    <header>
+        <nav class="navbar navbar-inverse navbarColor">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="logo" src="assets/img/logo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="row">
+                    <!-- <div class="col-md-5 col-md-offset-5 col-sm-8">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#" class="footer-text">Home</a></li>
+                        <li><a ui-sref="mobile" class="footer-text">Mobiles</a></li>
+                        <li><a ui-sref="laptop">Sports</a></li>                                      
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Fashion<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a ui-sref="speaker">Men</a></li>
+                                <li><a ui-sref="headphone">Women</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact Us</a></li>
+                        </ul>
+                </div> -->
+                    <div class="col-md-1 pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart cartIcon"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid" ui-view>
+     </div>  
+    <!-- Footer -->
+    <footer class="pageFooter">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer-text footer-textHeading">Online Shopping</div>
+                <ul class="list-group">
+                    <li class="list-group-item list-format"><a ui-sref="mobile" class="footer-text">Mobiles</a></li>
+                    <li class="list-group-item list-format"><a ui-sref="laptop" class="footer-text">Sports</a></li>
+                    <li class="list-group-item list-format"><a ui-sref="speaker" class="footer-text">Fashion</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-text footer-textHeading">Useful Links</div>
+                <ul class="list-group">
+                    <li class="list-group-item list-format"><a href="#" class="footer-text">Contact Us</a></li>
+                    <li class="list-group-item list-format"><a href="#" class="footer-text">About</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-text footer-textHeading">Keep in Touch</div>
+                <a target="_blank" title="find us on Facebook" href="http://www.facebook.com/PLACEHOLDER"><img alt="follow me on facebook" src="//login.create.net/images/icons/user/facebook_30x30.png" border=0></a>
+                <a target="_blank" title="follow me on twitter" href="http://www.twitter.com/PLACEHOLDER"><img alt="follow me on twitter" src="//login.create.net/images/icons/user/twitter_30x30.png" border=0></a>
+                <a target="_blank" title="follow me on youtube" href="http://www.youtube.com/PLACEHOLDER"><img alt="follow me on youtube" src="https://c866088.ssl.cf3.rackcdn.com/assets/youtube40x40.png" border=0></a>
+                <a target="_blank" title="follow me on instagram" href="http://www.instagram.com/PLACEHOLDER"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram30x30.png" border=0></a>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="assets/img/original.png" class="footerServicesImages" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="footerServicesText footer-text"><b>100% ORIGINAL</b> guarantee for all products</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="assets/img/return.png" class="footerServicesImages" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="footerServicesText footer-text"><b>Return within 30 Days</b> of placing your order</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="assets/img/fastDelivery.png" class="footerServicesImages" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="footerServicesText footer-text"><b>Fast Delivery</b> for members</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a ui-sref="admin"><img src="assets/img/admin.png" class="footerServicesImages"/></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="footerServicesText footer-text"><b>Admin</b></div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>

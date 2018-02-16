@@ -1,0 +1,231 @@
+{
+    "electronics": [
+    {
+        "name": "Samsung Galaxy On",
+        "brand": "samsung",
+        "image": ["assets/img/samsunggalaxyon1.png", "assets/img/samsunggalaxyon2.png", "assets/img/samsunggalaxyon3.png"],
+        "price": 12900,
+        "features":
+        {
+            "screen": "5.5 inch Full HD Display",
+            "processor": "Exynos 7870 Octa Core 1.6 GHz Processor",
+            "os": "Android Marshmallow 6",
+            "battery": "4100 mAh Li-Polymer Battery",
+            "camera": "13MP Rear Camera | 8MP Front Camera",
+            "ram": "3 GB RAM",
+            "rom": "64 GB ROM",
+            "warrenty": "Brand Warranty of 1 Year",
+            "color": "Gold"
+        },
+        "desc": "The On Nxt is a performance beast, thanks to the powerful 1.6 GHz, octa-core processor that’s aided by an impressive amount of RAM (3 GB). Furthermore, it has 64 GB of internal memory, so you can store loads of photos, videos, apps and more.",
+        "reviews": [
+        {
+            "title": "Decent Performance",
+            "comment": "  Decent camera - good in day light - Battery lasts a business day with full 4 G on -Fingerprint scanner works well  "
+        },
+        {
+            "title": "Worth every penny",
+            "comment": "The mobile is good enough for daily uses.. But battery & camera department lacks a little bit."
+        },
+        {
+            "title": "First Impression",
+            "comment": " So as usual i received the phone within 40hrs, Thanks to Gem-carT. "
+        }]
+    },
+    {
+        "name": "Samsung Galaxy J3 Pro",
+        "brand": "samsung",
+        "image": ["assets/img/samsunggalaxyj3pro1.png", "assets/img/samsunggalaxyj3pro2.png", "assets/img/samsunggalaxyj3pro3.png"],
+        "price": 7990,
+        "features":
+        {
+            "screen": "5 inch Display",
+            "processor": "Spreadtrum Quad Core 1.5GHz Processor",
+            "os": "Android Marshmallow 6",
+            "battery": "2600 mAh Li-ion Battery",
+            "camera": "8MP Rear Camera | 5MP Front Camera",
+            "ram": "2 GB RAM",
+            "rom": "16 GB ROM",
+            "warrenty": "Brand Warranty of 1 Year",
+            "color": "Black"
+        },
+        "desc": "Brilliant Display-With the Samsung Galaxy J3 Pro, you will get to enjoy the vivid colours that OLED displays are known for. Enjoy your favourite content on a compact, 12.63-cm (5) Super AMOLED display which makes the phone fit easily in the palm of your hand.",
+        "reviews": [
+        {
+            "title": "Simply awesome",
+            "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+        },
+        {
+            "title": "Wonderful",
+            "comment": "Nice display, But battery & camera department lacks a little bit."
+        },
+        {
+            "title": "Very Good",
+            "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good samsung. Slim, stylish. "
+        }]
+    },
+    {
+        "name": "Samsung Galaxy J7 Nxt",
+        "brand": "samsung",
+        "image": ["assets/img/samsunggalaxyj7nxt1.png", "assets/img/samsunggalaxyj7nxt2.png", "assets/img/samsunggalaxyj7nxt3.png"],
+        "price": 11990,
+        "features":
+        {
+            "screen": "5.5 inch HD Display",
+            "processor": "Exynos Octa Core 1.6 GHz Processor",
+            "os": "Android Marshmallow 6",
+            "battery": "3100 mAh Li-ion Battery",
+            "camera": "13MP Rear Camera | 5MP Front Camera",
+            "ram": "3 GB RAM",
+            "rom": "32 GB ROM",
+            "warrenty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories",
+            "color": "Gold"
+        },
+        "desc": "A phone catering to today’s needs, the Samsung Galaxy J7 Nxt is equipped with features like Samsung Pay Mini for a hassle-free digital payment experience. You can click delightful pictures on-the-go with the phone’s 13 MP rear camera and 5 MP front camera. This phone will be a delight for those who love clicking selfies owing to features like the Selfie Focus. This phone has a 3000 mAh battery.",
+        "reviews": [
+        {
+            "title": "Simply awesome",
+            "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+        },
+        {
+            "title": "Wonderful",
+            "comment": "Nice display, But battery & camera department lacks a little bit."
+        },
+        {
+            "title": "Very Good",
+            "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good samsung. Slim, stylish. "
+        }]
+    },
+    {
+        "name": "Samsung Galaxy J7 Pro",
+        "brand": "samsung",
+        "image": ["assets/img/samsungj7pro1.png", "assets/img/samsungj7pro2.png", "assets/img/samsungj7pro3.png"],
+        "price": 19990,
+        "features":
+        {
+            "screen": "5.5 inch HD Display",
+            "processor": "Exynos Octa-Core 1.6GHz Processor",
+            "os": "Android Nougat 7.0",
+            "battery": "3600 mAh Li-ion Battery",
+            "camera": "13MP Rear Camera | 5MP Front Camera",
+            "ram": "3 GB RAM",
+            "rom": "64 GB ROM",
+            "warrenty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories",
+            "color": "Black"
+        },
+        "desc": "From instant payment to instant sharing on social media, let the Samsung Galaxy J7 Pro simplify your daily tasks. This smartphone features 13 MP front and rear cameras so you can click stunning photos, as well as 64 GB of internal memory and 3 GB of RAM for fast, seamless performance.",
+        "reviews": [
+            {
+                "title": "Wonderful",
+                "comment": "Nice display, But battery & camera department lacks a little bit."
+            },
+            {
+                "title": "Simply awesome",
+                "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+            },
+
+            {
+                "title": "Very Good",
+                "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good samsung. Slim, stylish. "
+            }
+        ]
+    },
+    {
+        "name": "Samsung Galaxy On Max",
+        "brand": "samsung",
+        "image": ["assets/img/samsungonmax1.png", "assets/img/samsungonmax2.png", "assets/img/samsungonmax3.png"],
+        "price": 15990,
+        "features":
+        {
+            "screen": "5.7 inch HD Display",
+            "processor": "MediaTek MTK6757V/WL 2.39GHz, 1.69GHz, Octa Core Processor",
+            "os": "Android Nougat 7.0",
+            "battery": "3300 mAh Li-ion Battery",
+            "camera": "13MP Rear Camera | 13MP Front Camera",
+            "ram": "4 GB RAM",
+            "rom": "32 GB ROM",
+            "warrenty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories",
+            "color": "Black"
+        },
+        "desc": "From instant payment to instant sharing on social media, let the Samsung Galaxy J7 Pro simplify your daily tasks. This smartphone features 13 MP front and rear cameras so you can click stunning photos, as well as 64 GB of internal memory and 3 GB of RAM for fast, seamless performance.",
+        "reviews": [
+        {
+            "title": "Wonderful",
+            "comment": "Nice display, But battery & camera department lacks a little bit."
+        },
+        {
+            "title": "Very Good",
+            "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good samsung. Slim, stylish. "
+        },
+        {
+            "title": "Simply awesome",
+            "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+        }]
+    },
+    {
+        "name": "HTC Desire 630",
+        "brand": "htc",
+        "image": ["assets/img/htcdesire6301.png", "assets/img/htcdesire6302.png", "assets/img/htcdesire6303.png"],
+        "price": 9385,
+        "features":
+        {
+            "screen": "5 inch HD Display",
+            "processor": "Quad Core Processor MSM8928-AC Processor",
+            "os": "Android Nougat 7.0",
+            "battery": "2000 mAh Li-ion Battery",
+            "camera": "8MP Rear Camera | 5MP Front Camera",
+            "ram": "2 GB RAM",
+            "rom": "16 GB ROM",
+            "warrenty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories",
+            "color": "Sprinkle White"
+        },
+        "desc": "Handset, Battery, AC Adapter, USB Sync Cable, Headset, Safety and Regulatory Guide, Quick Start Guide, Limited Warranty Statement, Customer Care Card",
+        "reviews": [
+        {
+            "title": "Worthless product",
+            "comment": "Don't buy this phone guys ,HTC desire630 is waste of money, I buy before 5 months n this phone is my last htc, Battery sucks without using phone"
+        },
+        {
+            "title": "Awesome phone with clear camera",
+            "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good . Slim, stylish. "
+        },
+        {
+            "title": "Wonderful",
+            "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+        }]
+    },
+    {
+        "name": "HTC One X9",
+        "brand": "htc",
+        "image": ["assets/img/htconex91.png", "assets/img/htconex92.png", "assets/img/htconex93.png"],
+        "price": 14300,
+        "features":
+        {
+            "screen": "5.5 inch HD Display",
+            "processor": "MediaTek Helio X10 64-bit Octa Core 2.2GHz Processor",
+            "os": "Android Nougat 7.0",
+            "battery": "3000 mAh Li-ion Battery",
+            "camera": "13MP Rear Camera | 5MP Front Camera",
+            "ram": "3 GB RAM",
+            "rom": "32 GB ROM",
+            "warrenty": "Brand Warranty of 1 Year Available for Mobile",
+            "color": "Carbon Grey"
+        },
+        "desc": "Anti-shake Lens, 1.12 micrometre Pixels, Auto Focus, BSI Sensor, Optical Image Stabilisation (OIS), f/2.0 Aperture and 27.9 mm Focal Length (74.8 Degree Wide Angle), Face Detection, Volume Button as Shutter Button, Volume Button to Zoom, Pro Mode with Manual Controls and RAW Format, HDR Mode, Panorama Mode ",
+        "reviews": [
+        {
+            "title": "terrible",
+            "comment": "Don't buy this phone guys ,HTC desire630 is waste of money, I buy before 5 months n this phone is my last htc, Battery sucks without using phone"
+        },
+        {
+            "title": "Wonderful",
+            "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+        },
+        {
+            "title": "Terrific",
+            "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good . Slim, stylish. "
+        }]
+    }],
+    "clothings": [],
+    "sports": []
+}

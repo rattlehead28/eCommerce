@@ -1,0 +1,52 @@
+.navbarColor{
+
+	background-color: #7487a5;
+}
+/*
+.textColor{
+
+	color:black;
+}*/
+
+
+
+.logo{
+	position: relative;
+	top:-15px;
+	height:50px;
+	width:50px;
+}
+
+.pageFooter{
+	
+	background-color: #7487a5;
+	padding: 40px;
+}
+
+.list-format{
+
+	border: none;
+	background-color: transparent;
+}
+
+.footer-text{
+
+	color:white;
+}
+
+.footer-textHeading{
+
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.cartIcon{
+
+	font-size: 20px;
+}
+
+.footerServicesImages{
+
+	height:80px;
+	width:80px;
+}
