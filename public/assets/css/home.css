@@ -1,9 +1,49 @@
-.electronicsHome{
+.carouselHeading{
 
+	
 	color: blue;
+	font-family: helvetica;
+	
+}
+
+.carouselButton{
+
+	margin-top:10px;
+	margin-left: 30px;
+}
+
+.carouselInfo{
+
+	margin-top:100px;
+
 }
 
 #electronicsCarousel{
 
 	background-color: none;
 }
+
+/*.carouselControlEdit{
+
+	background:none;
+
+}*/
+
+
+/*.carouselControlEdit:hover{
+
+	opacity: 0;
+}*/
+
+.carouselControlIcon{
+
+	
+	color:black;
+	
+}
+
+.cardHeight{
+
+	height: 245.97px;
+}
+
