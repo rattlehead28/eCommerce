@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-md-2">
-        <div class="navbar" id="bs-sidebar-navbar">
+        <div class="collapse navbar-collapse" id="navBar">
             <ul class="nav navbar">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a ui-sref="mobile">Mobiles</a></li>
@@ -54,27 +54,35 @@
           ELECTRONICS
 ===========================-->
 <div class="row" style="position: relative;top:50px">
-    <div class="col-md-3">
-        <div class="carouselInfo">
-            <h2 class="carouselHeading">MOBILES</h2>
-            <button class="btn btn-primary carouselButton">View All</button>
-        </div>
+    <div class="col-md-3 col-xs-12">
+        <div class="carouselInfo"> 
+            <div class="row"> 
+                <div class="col-md-6 col-xs-2 col-xs-offset-2">
+                    <h2 class="carouselHeading">MOBILES</h2>
+                </div>
+            
+                <div class="col-md-12 col-xs-2 col-xs-offset-2">
+                    <button class="btn btn-primary carouselButton">View All</button>
+                </div>
+            </div>
+            
+       </div> 
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 col-xs-12">
         <div id="electronicsCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item" ng-class="{active:!$index}" ng-repeat="index in loopArray">
                     <div class="row">
                         <div ng-repeat="x in products.mobiles.slice(index,index+4)">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-xs-3">
                                 <div class="text-center">
                                     <div class="card">
-                                        <a><img src="{{x.image[0]}}" alt="" style="height:100%;width: 60%"></a>
+                                        <a><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
                                         <div class="card-body">
-                                            <h4 class="card-title">
+                                            <div class="card-title productName">
                                             <a>{{x.name}}</a>
-                                         </h4>
-                                            <h5>{{x.price|currency:"₹"}}</h5>
+                                         </div>
+                                            <div class="priceFont">{{x.price|currency:"₹"}}</div>
                                         </div>
                                     </div>
                                 </div>
@@ -83,45 +91,51 @@
                     </div>
                 </div>
             </div>
-            <a class="left carousel-control carouselControlEdit" href="#electronicsCarousel" data-slide="prev" style="background:none">
-                 <span class="glyphicon glyphicon-chevron-left carouselControlIcon" style="margin-left:-130px"></span>
+            <a class="left carousel-control carouselControlEdit " data-target="#electronicsCarousel" data-slide="prev" style="background:none">
+                 <span class="glyphicon glyphicon-chevron-left carouselControlIcon leftControl" ></span>
                  <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control carouselControlEdit" href="#electronicsCarousel" data-slide="next" style="background:none">
-                 <span class="glyphicon glyphicon-chevron-right carouselControlIcon" style="margin-right:-130px"></span>
+            <a class="right carousel-control carouselControlEdit" data-target="#electronicsCarousel" data-slide="next" style="background:none">
+                 <span class="glyphicon glyphicon-chevron-right carouselControlIcon rightControl" ></span>
                  <span class="sr-only">Next</span>
             </a>
         </div>
+        <hr/>
     </div>
 </div>
-
 <!-- =======================
           FASHION
 =========================-->
-
-
 <div class="row" style="position: relative;top:50px">
-    <div class="col-md-3">
-        <div class="carouselInfo">
-            <h2 class="carouselHeading">FASHION</h2>
-            <button class="btn btn-primary carouselButton">View All</button>
-        </div>
+    <div class="col-md-3 col-xs-12">
+        <div class="carouselInfo"> 
+            <div class="row"> 
+                <div class="col-md-6 col-xs-2 col-xs-offset-2">
+                    <h2 class="carouselHeading">FASHION</h2>
+                </div>
+            
+                <div class="col-md-12 col-xs-2 col-xs-offset-2">
+                    <button class="btn btn-primary carouselButton">View All</button>
+                </div>
+            </div>
+            
+       </div> 
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 col-xs-12">
         <div id="fashionCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item" ng-class="{active:!$index}" ng-repeat="index in loopArray">
                     <div class="row">
                         <div ng-repeat="x in products.clothings.slice(index,index+4)">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-xs-3">
                                 <div class="text-center">
                                     <div class="card">
-                                        <a><img src="{{x.image[0]}}" alt="" style="height:100%;width: 60%"></a>
+                                        <a><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
                                         <div class="card-body">
-                                            <h4 class="card-title">
+                                            <div class="card-title productName">
                                             <a>{{x.name}}</a>
-                                         </h4>
-                                            <h5>{{x.price|currency:"₹"}}</h5>
+                                         </div>
+                                            <div class="priceFont">{{x.price|currency:"₹"}}</div>
                                         </div>
                                     </div>
                                 </div>
@@ -130,12 +144,65 @@
                     </div>
                 </div>
             </div>
-            <a class="left carousel-control carouselControlEdit" href="#fashionCarousel" data-slide="prev" style="background:none">
-                 <span class="glyphicon glyphicon-chevron-left carouselControlIcon" style="margin-left:-130px"></span>
+            <a class="left carousel-control carouselControlEdit" data-target="#fashionCarousel" data-slide="prev" style="background:none">
+                 <span class="glyphicon glyphicon-chevron-left carouselControlIcon leftControl" ></span>
                  <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control carouselControlEdit" data-target="#fashionCarousel" data-slide="next" style="background:none">
-                 <span class="glyphicon glyphicon-chevron-right carouselControlIcon" style="margin-right:-130px"></span>
+                 <span class="glyphicon glyphicon-chevron-right carouselControlIcon rightControl" ></span>
+                 <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <hr/>
+    </div>
+</div>
+<!-- =======================
+          SPORTS
+=========================-->
+<div class="row" style="position: relative;top:50px">
+    <div class="col-md-3">
+        <div class="carouselInfo"> 
+            <div class="row"> 
+                <div class="col-md-6 col-xs-2 col-xs-offset-2">
+                    <h2 class="carouselHeading">SPORTS</h2>
+                </div>
+            
+                <div class="col-md-12 col-xs-2 col-xs-offset-2">
+                    <button class="btn btn-primary carouselButton">View All</button>
+                </div>
+            </div>
+            
+       </div> 
+    </div>
+    <div class="col-md-8 col-xs-12">
+        <div id="sportsCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item" ng-class="{active:!$index}" ng-repeat="index in loopArray">
+                    <div class="row">
+                        <div ng-repeat="x in products.sports.slice(index,index+4)">
+                            <div class="col-md-3 col-xs-3">
+                                <div class="text-center">
+                                    <div class="card">
+                                        <a><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
+                                        <div class="card-body">
+                                            <div class="card-title productName">
+                                            <a>{{x.name}}</a>
+                                         </div>
+                                            <div class="priceFont">{{x.price|currency:"₹"}}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control carouselControlEdit" data-target="#sportsCarousel" data-slide="prev" style="background:none">
+                 <span class="glyphicon glyphicon-chevron-left carouselControlIcon leftControl" ></span>
+                 <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control carouselControlEdit" data-target="#sportsCarousel" data-slide="next" style="background:none">
+                 <span class="glyphicon glyphicon-chevron-right carouselControlIcon rightControl" ></span>
                  <span class="sr-only">Next</span>
             </a>
         </div>

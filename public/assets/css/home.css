@@ -1,3 +1,20 @@
+@media screen and (min-width:500px){
+
+.productName{
+
+	font-size: 15px;
+}
+}
+
+@media screen and (max-width:500px){
+
+.priceFont{
+
+	font-size: 12px;
+}
+}
+
+
 .carouselHeading{
 
 	
@@ -11,11 +28,13 @@
 	margin-top:10px;
 	margin-left: 30px;
 }
-
+@media screen and (min-width: 500px){
 .carouselInfo{
 
 	margin-top:100px;
 
+
+}
 }
 
 #electronicsCarousel{
@@ -23,11 +42,11 @@
 	background-color: none;
 }
 
-/*.carouselControlEdit{
+.carouselControlEdit{
 
-	background:none;
+	cursor: pointer;
 
-}*/
+}
 
 
 /*.carouselControlEdit:hover{
@@ -47,3 +66,51 @@
 	height: 245.97px;
 }
 
+.cardImage{
+
+	height:100%;
+	width: 60%
+}
+
+@media only screen and (min-width: 992px){
+
+	.leftControl{
+
+		margin-left: -130px !important;
+	}
+
+	.rightControl{
+
+		margin-right:-130px !important;
+	}
+}
+@media only screen and (max-width: 992px){
+
+	.leftControl{
+
+		position:relative;
+		top:-30px !important;
+		/*right:0px;*/
+	}
+
+	.rightControl{
+
+		position:relative;
+		top:-30px !important;
+		/*left:0px;*/
+	}
+
+	.leftControlFashion{
+
+		position:relative;
+		top:0px !important;
+		/*right:0px;*/
+	}
+
+	.rightControlFashion{
+
+		position:relative;
+		top:-10px !important;
+		/*left:0px;*/
+	}
+}
