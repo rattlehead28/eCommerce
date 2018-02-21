@@ -37,6 +37,12 @@
 }
 }
 
+.adImages{
+
+	height:50%;
+	width:80%;
+}
+
 #electronicsCarousel{
 
 	background-color: none;
@@ -114,3 +120,55 @@
 		/*left:0px;*/
 	}
 }
+
+@media only screen and (max-width: 500px){
+
+	.mobileName{
+
+	height: 60px;
+}
+
+.clothesName{
+
+	height: 100px;
+}
+
+.sportsName{
+
+	height: 100px;
+}
+}
+
+@media only screen and (min-width: 500px){
+
+	.mobileName{
+
+	height: 40px;
+}
+
+.clothesName{
+
+	height: 36px;
+}
+
+.sportsName{
+
+	height: 36px;
+}
+}
+
+/*@media only screen and (max-width: 992px){
+
+	.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+}*/

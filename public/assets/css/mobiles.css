@@ -1,0 +1,13 @@
+.cardImage{
+
+	height:100%;
+	width: 60%
+}
+
+@media screen and (max-width:500px){
+
+.priceFont{
+
+	font-size: 12px;
+}
+}

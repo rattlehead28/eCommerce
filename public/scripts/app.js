@@ -1,4 +1,4 @@
-angular.module('eCart', ['ui.router']).config(function($stateProvider, $urlRouterProvider) {
+angular.module('eCart', ['ui.router','rzModule']).config(function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/');
 
@@ -35,29 +35,33 @@ angular.module('eCart', ['ui.router']).config(function($stateProvider, $urlRoute
             templateUrl: '../../views/laptops.html'
         })
 
-        .state('television', {
+        .state('sports', {
 
-            url: '/televisions',
-            templateUrl: '../../views/televisions.html'
+            url: '/sports',
+            templateUrl: '../../views/sports.html',
+            controller: 'sportsCtrl'
         })
 
-        .state('speaker', {
+        .state('fashion', {
 
-            url: '/speakers',
-            templateUrl: '../../views/speakers.html'
+            url: '/fashion',
+            templateUrl: '../../views/fashion.html',
+            controller: 'fashionCtrl'
         })
 
-        .state('headphone', {
+        .state('mobileDetails', {
 
-            url: '/headphones',
-            templateUrl: '../../views/headphones.html'
+            url: '/mobilesDescription',
+            templateUrl: '../../views/mobileDetails.view.html',
+            controller: 'mobileDetailsCtrl'
+
         })
 
-        .state('admin',{
+        .state('fashionDetails',{
 
-            url: '/admin',
-            templateUrl: '../../views/admin.html',
-            controller:'adminCtrl'
+            url: '/fashionDescription',
+            templateUrl: '../../views/fashionDetails.view.html',
+            controller:'fashionDetailsCtrl'
 
         })
 

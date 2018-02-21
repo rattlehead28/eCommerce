@@ -4,8 +4,8 @@
             <ul class="nav navbar">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a ui-sref="mobile">Mobiles</a></li>
-                <li><a ui-sref="laptop">Sports</a></li>
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Fashion<span class="caret"></span></a>
+                <li><a ui-sref="sports">Sports</a></li>
+                <li class="dropdown"><a ui-sref="fashion">Fashion</a>
                     <ul class="dropdown-menu">
                         <li><a ui-sref="speaker">Men</a></li>
                         <li><a ui-sref="headphone">Women</a></li>
@@ -29,14 +29,14 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="assets/img/carousel1.jpg" alt="" style="height:300px;width: 100%">
+                    <img src="assets/img/carousel1.jpg" alt="" style="height:100%;width: 100%">
                 </div>
                 <div class="item">
-                    <img src="assets/img/carousel2.jpg" alt="" style="height:300px;width: 100%">
+                    <img src="assets/img/carousel2.jpg" alt="" style="height:100%;width: 100%">
                 </div>
-                <div class="item">
+                <!-- <div class="item">
                     <img src="images/carousel3.jpg" alt="" style="height:300px;width: 100%">
-                </div>
+                </div> -->
                 <!-- Left and right controls -->
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                  <span class="glyphicon glyphicon-chevron-left"></span>
@@ -50,6 +50,8 @@
         </div>
     </div>
 </div>
+
+
 <!-- ========================
           ELECTRONICS
 ===========================-->
@@ -79,7 +81,7 @@
                                     <div class="card">
                                         <a><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
                                         <div class="card-body">
-                                            <div class="card-title productName">
+                                            <div class="card-title mobileName">
                                             <a>{{x.name}}</a>
                                          </div>
                                             <div class="priceFont">{{x.price|currency:"₹"}}</div>
@@ -132,7 +134,7 @@
                                     <div class="card">
                                         <a><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
                                         <div class="card-body">
-                                            <div class="card-title productName">
+                                            <div class="card-title clothesName">
                                             <a>{{x.name}}</a>
                                          </div>
                                             <div class="priceFont">{{x.price|currency:"₹"}}</div>
@@ -163,7 +165,7 @@
     <div class="col-md-3">
         <div class="carouselInfo"> 
             <div class="row"> 
-                <div class="col-md-6 col-xs-2 col-xs-offset-2">
+                <div class="col-md-6 col-sm-2 col-xs-2 col-xs-offset-2">
                     <h2 class="carouselHeading">SPORTS</h2>
                 </div>
             
@@ -185,7 +187,7 @@
                                     <div class="card">
                                         <a><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
                                         <div class="card-body">
-                                            <div class="card-title productName">
+                                            <div class="card-title sportsName">
                                             <a>{{x.name}}</a>
                                          </div>
                                             <div class="priceFont">{{x.price|currency:"₹"}}</div>
@@ -206,5 +208,21 @@
                  <span class="sr-only">Next</span>
             </a>
         </div>
+    </div>
+</div>
+
+<div class="row" style="position: relative;top:50px;padding: 20px">
+    <div class="col-md-3 col-xs-4 col-md-offset-2">
+        <img class="adImages" src="assets/img/ads1.jpg">
+    </div>
+
+
+    <div class="col-md-3 col-xs-4">
+        <img class="adImages" src="assets/img/ads2.jpg">
+    </div>
+
+
+    <div class="col-md-3 col-xs-4">
+        <img class="adImages" src="assets/img/ads3.jpg">
     </div>
 </div>

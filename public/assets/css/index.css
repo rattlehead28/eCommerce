@@ -32,24 +32,54 @@
 	background-color: transparent;
 }
 
+.footerDiv{
+
+	height: 194px;
+}
+
 .footer-text{
 
 	color:white;
+	font-size: 12px;
 }
-
+@media only screen and (max-width:500px){}
 .footer-textHeading{
 
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+}
+}
+.footer-textHeading{
+
+	color:white;
 	font-size: 20px;
 	font-weight: bold;
 }
-
 .cartIcon{
 
-	font-size: 20px;
+	font-size: 30px;
+	top:10px;
+	right:5px;
+	color: black;
+
 }
 
+@media only screen and (max-width:992px){
+.viewCart{
+
+	margin-left:150px;
+}
+}
+
+@media only screen and (min-width:1200px){
+.viewCart{
+
+	padding-left:1100px;
+}
+}
 .footerServicesImages{
 
-	height:80px;
-	width:80px;
+	height:100%;
+	width:100%;
 }

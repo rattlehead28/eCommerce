@@ -14,6 +14,18 @@ angular.module('eCart').service('dataService',function($http,$q){
 		
 	return defer.promise;
 }
+
+this.setId = function(id){
+
+	this.productId = id;
+	localStorage.setItem("productId",this.productId);
+}
+
+this.getId = function(){
+
+	return this.productId;
+}
+
 })
 
 

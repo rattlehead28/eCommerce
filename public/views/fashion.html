@@ -5,36 +5,32 @@
                 <li class="active"><a href="#">Home</a></li>
                 <li><a ui-sref="mobile">Mobiles</a></li>
                 <li><a ui-sref="sports">Sports</a></li>
-                <li><a ui-sref="fashion">Fashion</a>
+                <li class="dropdown"><a ui-sref="fashion">Fashion</a>
                 </li>
             </ul>
             <hr/>
-            <h4>Brands</h4>
+            <h4>Gender</h4>
             <!-- <div class="checkbox">
                 <label>
-                    <input type="checkbox" ng-model="val1" ng-true-value="'samsung'" ng-change="checkboxFilter()">Samsung</label>
+                    <input type="checkbox" ng-model="val1" ng-true-value="'male'" ng-change="checkboxFilter()">Male</label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" ng-model="val2" ng-true-value="'apple'" ng-change="checkboxFilter()">Apple</label>
-            </div>
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" ng-model="val3" ng-true-value="'htc'" ng-change="checkboxFilter()">HTC</label>
+                    <input type="checkbox" ng-model="val2" ng-true-value="'female'" ng-change="checkboxFilter()">Female</label>
             </div> -->
+
             <div class="checkbox">
-            <ul ng-repeat="x in mobileBrands">
+            <ul ng-repeat="x in genderArray">
                 <li><input type="checkbox" ng-model="val[$index]" ng-true-value="'{{x}}'">{{x}}</li>
             </ul>
-        </div>
-            <hr/>
-            <h4>Price</h4> 
+        </div><hr/>
+        <h4>Price</h4> 
             <rzslider rz-slider-model="minRangeSlider.minValue" rz-slider-high="minRangeSlider.maxValue" rz-slider-options="minRangeSlider.options"></rzslider>
         </div>
     </div>
     <div class="col-md-10">
         <div class="row">
-            <div ng-repeat="x in filteredMobiles | brandFilter:val | filter:priceFilter">
+            <div ng-repeat="x in filteredClothes | genderFilter:val | filter:priceFilter">
                 <div class="col-md-3 col-xs-4">
                     <div class="panel panel-default text-center" style="padding:10px">
                         <a ng-click="descriptionRedirect(x.id)"><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
