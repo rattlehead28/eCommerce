@@ -1,13 +1,14 @@
 <div class="row">
     <div class="col-md-2">
         <ul style="list-style: none">
-            <li><img class="previewSmall img-thumbnail" src="{{mobileDesc.image[0]}}"></li>
-            <li><img class="previewSmall img-thumbnail" src="{{mobileDesc.image[1]}}"></li>
-            <li><img class="previewSmall img-thumbnail" src="{{mobileDesc.image[2]}}"></li>
+            <li><img ng-click="changeSource(mobileDesc.image[0])" class="previewSmall img-thumbnail cursorPointer" src="{{mobileDesc.image[0]}}"></li>
+            <li><img ng-click="changeSource(mobileDesc.image[1])" class="previewSmall img-thumbnail cursorPointer" src="{{mobileDesc.image[1]}}"></li>
+            <li><img ng-click="changeSource(mobileDesc.image[2])" class="previewSmall img-thumbnail cursorPointer" src="{{mobileDesc.image[2]}}"></li>
         </ul>
     </div>
     <div class="col-md-2">
-        <img class="img-thumbnail" src="{{mobileDesc.image[0]}}">
+        <img class="img-thumbnail" src="{{mainImage}}">
+        <button class="btn btn-primary" ng-click="cartRedirect(mobileDesc.id)" style="margin: 10px 45px">Add to Cart</button>
     </div>
     <div class="col-md-6 col-md-offset-2">
         <div class="panel panel-info">

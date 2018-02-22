@@ -1,0 +1,52 @@
+<div class="row" ng-init="getData()">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><b>My Cart({{totalCount}})</b></h4>
+            </div>
+            <div class="panel-content" ng-repeat="x in cartProducts track by $index" style="padding:10px">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-1">
+                        <img class="cartImage" src="{{x.image[0]}}">
+                    </div>
+                    <div class="col-md-4">
+                        <span class="productName">{{x.name}}</span><br>
+                        <span class="brandName">{{x.brand}}</span>
+                        <br>
+                    </div>
+                    <div class="col-md-2 col-md-offset-1">
+                        <span class="productName">{{x.price|currency:"₹"}}</span><br>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px">
+                    <div class="col-md-1">
+                        <button class="btn btn-default editButton" ng-click="increaseCount(x.id)">+</button>
+                    </div>
+                    <div class="col-md-2">
+                        <input class="form-control text-center" type="text" ng-model="cartProductId[x.id].count">
+                    </div>
+                    <div class="col-md-1">
+                        <button class="btn btn-default editButton" ng-click="decreaseCount(x.id)">-</button>
+                    </div>
+                    <div class="col-md-2 col-md-offset-2">
+                        <button class="btn btn-success" ui-sref='home'>Continue Shopping</button>
+                    </div>
+                    <div class="col-md-2 col-md-offset-1">
+                        <button class="btn btn-danger" ng-click="removeItem(x.id)">Remove</button>
+                    </div>
+                </div><hr/>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><b>Price Details</b></h4>
+            </div>
+            <div class="panel-content" style="padding:10px">
+                <span>Total Price({{totalCount}} items) : {{total|currency:"₹"}}</span>
+            </div>
+        </div>
+    </div>
+</div>

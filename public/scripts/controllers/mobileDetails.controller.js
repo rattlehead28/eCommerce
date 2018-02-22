@@ -1,5 +1,6 @@
-angular.module('eCart').controller('mobileDetailsCtrl', function($scope, dataService) {
+angular.module('eCart').controller('mobileDetailsCtrl', function($scope, $state, dataService) {
     $scope.mobileDesc = {};
+    $scope.mobileObj={};
     if (localStorage.getItem('productId')) {
         $scope.id = localStorage.getItem('productId');
     } else {
@@ -20,10 +21,24 @@ angular.module('eCart').controller('mobileDetailsCtrl', function($scope, dataSer
             }
         }
 
-        console.log($scope.mobileDesc);
+        console.log($scope.mobileDesc.image[0]);
+        $scope.mainImage=$scope.mobileDesc.image[0];
+
 
     })
 
+$scope.changeSource = function(source){
+
+	$scope.mainImage = source;
+}
+
+$scope.cartRedirect = function(id){
+    $scope.mobileObj = {"count":1,"category":"mobiles"};
+	dataService.setCartData(id,$scope.mobileObj);
+    dataService.setId(id);
+	$state.go('cart');
+
+}
 
 
 })

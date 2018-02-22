@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/mobiles.css">
     <link rel="stylesheet" href="assets/css/mobileDetails.css">
     <link rel="stylesheet" href="assets/css/sports.css">
+        <link rel="stylesheet" href="assets/css/cart.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/6.4.3/rzslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -25,6 +26,7 @@
     <script src="scripts/controllers/fashionController.js"></script>
     <script src="scripts/controllers/mobileDetails.controller.js"></script>
     <script src="scripts/controllers/fashionDetails.controller.js"></script>
+    <script src="scripts/controllers/cart.controller.js"></script>
 </head>
 
 <body ng-app="eCart" ng-controller="mainCtrl">
@@ -43,7 +45,7 @@
                         </div>
                     </div>
                     <div class="col-md-2 col-md-offset-4 col-xs-2 col-xs-offset-4">
-                        <a href="#"><span class="glyphicon glyphicon-shopping-cart cartIcon"></span></a>
+                        <a ui-sref="cart"><span class="glyphicon glyphicon-shopping-cart cartIcon"></span></a>
                     </div>
                 </div>
                 <!-- <div class="navbar">
@@ -61,8 +63,8 @@
                 <div class="footer-text footer-textHeading">Online Shopping</div>
                 <ul class="list-group">
                     <li class="list-group-item list-format"><a ui-sref="mobile" class="footer-text">Mobiles</a></li>
-                    <li class="list-group-item list-format"><a ui-sref="laptop" class="footer-text">Sports</a></li>
-                    <li class="list-group-item list-format"><a ui-sref="speaker" class="footer-text">Fashion</a></li>
+                    <li class="list-group-item list-format"><a ui-sref="sports" class="footer-text">Sports</a></li>
+                    <li class="list-group-item list-format"><a ui-sref="fashion" class="footer-text">Fashion</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-3 col-xs-6 footerDiv">
