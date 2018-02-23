@@ -1045,17 +1045,18 @@
     ],
     "sports": [
         {
-            "id": "s01",
-            "name": "Nivia Storm Football",
+            "id": "S01",
+            "name": "Nivia Storm Football - Size: 5",
+            "sport": "football",
             "brand": "Nivia",
             "price": 272,
-            "image": ["assets/img/football_s11.png", "assets/img/football_s11.png", "assets/img/football_s11.png"],
-            "features": [
+            "image": ["assets/img/football_s11.png", "assets/img/football_s12.png", "assets/img/football_s13.png"],
+            "features":
             {
-                "Material": "Rubber",
+                "material": "Rubber",
                 "color": "White",
-                "Weight": "420"
-            }],
+                "weight": "420 gms"
+            },
             "reviews": [
             {
                 "title": "Nice",
@@ -1065,20 +1066,21 @@
                 "title": "Rubber will hurt",
                 "comment": "Rubber Moulding will hurt on legs if you dont play with shoes. A bit more bouncy ball. And this line because the review needed min 100 characters"
             }]
-
         },
+
         {
-            "id": "s02",
+            "id": "S02",
             "name": "Nike FC Barcelona Supporter's Football",
+            "sport": "football",
             "brand": "Nike",
             "price": 300,
             "image": ["assets/img/football_s21.png", "assets/img/football_s22.png", "assets/img/football_s23.png"],
-            "features": [
+            "features":
             {
-                "Material": "Rubber",
+                "material": "Rubber",
                 "color": "blue",
-                "Weight": "420"
-            }],
+                "weight": "420 gms"
+            },
             "reviews": [
             {
                 "title": "Luv it",
@@ -1090,17 +1092,20 @@
             }]
 
         },
+
         {
-            "id": "s03",
+            "id": "S03",
             "name": "SG Optipro Cricket Helmet",
+            "sport": "cricket",
             "brand": "SG",
             "price": 979,
             "image": ["assets/img/helmet_s31.png", "assets/img/helmet_s32.png", "assets/img/helmet_s33.png"],
-            "features": [
+            "features":
             {
-                "Material": "plastic",
-                "color": "blue"
-            }],
+                "material": "plastic",
+                "color": "blue",
+                "weight": "900 gms"
+            },
             "reviews": [
             {
                 "title": "Pretty good",
@@ -1112,17 +1117,20 @@
             }]
 
         },
+
         {
-            "id": "s04",
+            "id": "S04",
             "name": "GS helmet black",
             "brand": "GS",
+            "sport": "cricket",
             "price": 400,
-            "image": ["assets/img/helmet_s41.png", "assets/img/helmet_s41.png", "assets/img/helmet_s41.png"],
-            "features": [
+            "image": ["assets/img/helmet_s41.png", "assets/img/helmet_s42.png", "assets/img/helmet_s43.png"],
+            "features":
             {
-                "Material": "plastic",
-                "color": "black"
-            }],
+                "material": "plastic",
+                "color": "black",
+                "weight": "950 gms"
+            },
             "reviews": [
             {
                 "title": "Four Stars",
@@ -1134,17 +1142,20 @@
             }]
 
         },
+
         {
-            "id": "s05",
-            "name": "Wilson Advantage XL 4 3/8 Strung",
+            "id": "S05",
+            "name": "Wilson Advantage XL Strung",
             "brand": "Wilson",
+            "sport": "tennis",
             "price": 1793,
             "image": ["assets/img/tennis_s51.png", "assets/img/tennis_s52.png", "assets/img/tennis_s53.png"],
-            "features": [
+            "features":
             {
-                "Material": "aluminium",
-                "color": "black"
-            }],
+                "material": "aluminium",
+                "color": "black",
+                "weight": "590 gms"
+            },
             "reviews": [
             {
                 "title": "Good",
@@ -1156,17 +1167,20 @@
             }]
 
         },
+
         {
-            "id": "s06",
-            "name": "Cosco RADAR TOUR 2.5 Strung",
+            "id": "S06",
+            "name": "Cosco RADAR TOUR 2.5 Strung ",
             "brand": "Cosco",
+            "sport": "tennis",
             "price": 2729,
             "image": ["assets/img/tennis_s61.png", "assets/img/tennis_s62.png", "assets/img/tennis_s63.png"],
-            "features": [
+            "features":
             {
-                "Material": "aluminium",
-                "color": "blue"
-            }],
+                "material": "aluminium",
+                "color": "blue",
+                "weight": "570 gms"
+            },
             "reviews": [
             {
                 "title": "Four Stars",
@@ -1178,17 +1192,20 @@
             }]
 
         },
+
         {
-            "id": "s07",
+            "id": "S07",
             "name": "Prokyde Delta Crown Cricket Ball",
             "brand": "Prokyde",
+             "sport": "cricket",
             "price": 2300,
             "image": ["assets/img/cricket_s71.png", "assets/img/cricket_s72.png", "assets/img/cricket_s73.png"],
-            "features": [
+            "features":
             {
-                "Material": "leather",
-                "color": "red"
-            }],
+                "material": "leather",
+                "color": "red",
+                "weight": "160 gms"
+            },
             "reviews": [
             {
                 "title": "Good choice",
@@ -1199,8 +1216,6 @@
                 "comment": "Awesome"
             }]
         }
-
-
-
     ]
+
 }

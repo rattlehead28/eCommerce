@@ -65,6 +65,14 @@ angular.module('eCart', ['ui.router','rzModule']).config(function($stateProvider
 
         })
 
+        .state('sportsDetails',{
+
+            url: '/sportsDescription',
+            templateUrl: '../../views/sportsDetails.view.html',
+            controller: 'sportsDetailsCtrl'
+
+        })
+
         .state('cart',{
 
             url: '/cart',

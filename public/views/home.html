@@ -79,7 +79,7 @@
                             <div class="col-md-3 col-xs-3">
                                 <div class="text-center">
                                     <div class="card">
-                                        <a class="cursorPointer" ng-click="descriptionRedirect(x.id)"><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
+                                        <a class="cursorPointer" ng-click="descriptionRedirectMobiles(x.id)"><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
                                         <div class="card-body">
                                             <div class="card-title mobileName">
                                             <a class="cursorPointer">{{x.name}}</a>
@@ -132,12 +132,12 @@
                             <div class="col-md-3 col-xs-3">
                                 <div class="text-center">
                                     <div class="card">
-                                        <a><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
+                                        <a class="cursorPointer" ng-click="descriptionRedirectFashion(x.id)"><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
                                         <div class="card-body">
                                             <div class="card-title clothesName">
-                                            <a>{{x.name}}</a>
+                                            <a class="cursorPointer">{{x.name}}</a>
                                          </div>
-                                            <div class="priceFont">{{x.price|currency:"₹"}}</div>
+                                            <div class="priceFont cursorPointer">{{x.price|currency:"₹"}}</div>
                                         </div>
                                     </div>
                                 </div>
@@ -185,7 +185,7 @@
                             <div class="col-md-3 col-xs-3">
                                 <div class="text-center">
                                     <div class="card">
-                                        <a><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
+                                        <a class="cursorPointer" ng-click="descriptionRedirectSports(x.id)"><img class="cardImage" src="{{x.image[0]}}" alt=""></a>
                                         <div class="card-body">
                                             <div class="card-title sportsName">
                                             <a>{{x.name}}</a>

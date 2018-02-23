@@ -1,15 +1,25 @@
 .cartImage{
 
-	height:80%;
-	width:80%;
+	height:100%;
+	width:100%;
 }
 
 .productName{
 
-	font-size:20px;
+	font-size:80%;
+	font-weight: bold;
 }
 
 .brandName{
 
-	font-size:15px;
+	font-size:75%;
+}
+
+@media only screen and (max-width:992px){
+	.cartImage{
+
+	height:90%;
+	width:90%;
+}
+
 }

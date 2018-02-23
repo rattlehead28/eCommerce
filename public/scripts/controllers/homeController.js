@@ -9,10 +9,24 @@ angular.module('eCart').controller('homeCtrl',function($scope, $state, dataServi
 	$scope.loopArray = [0,4,8,12];
 	console.log($scope.loopArray)
 
-	$scope.descriptionRedirect = function(index){
+	$scope.descriptionRedirectMobiles = function(index){
 
 	dataService.setId(index);
 	console.log("index");
 	$state.go('mobileDetails');
 }
+
+$scope.descriptionRedirectFashion = function(index){
+
+	dataService.setId(index);
+	console.log("index");
+	$state.go('fashionDetails');
+}
+$scope.descriptionRedirectSports = function(index){
+
+	dataService.setId(index);
+	console.log("index");
+	$state.go('sportsDetails');
+}
+
 })
