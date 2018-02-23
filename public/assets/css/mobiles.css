@@ -16,3 +16,9 @@
 
 	cursor: pointer;
 }
+
+.errorText{
+
+	font-size: 26px;
+	font-weight:bold;
+}

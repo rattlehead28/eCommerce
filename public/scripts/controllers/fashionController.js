@@ -78,7 +78,7 @@ angular.module('eCart')
 .filter('genderFilter', function() {
 
     return function(filteredClothes, val) {
-    	if(val.length==0||(val[0]==false&&val[1]==false)){
+    	if(val.length==0||(val[0]==false||val[1]==false)){
     		return filteredClothes;
     	}
         return filteredClothes.filter(function(filteredClothes) {

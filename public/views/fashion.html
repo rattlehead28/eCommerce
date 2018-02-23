@@ -45,5 +45,11 @@
             </div>
         </div>
     </div>
+
+    <div class="col-md-5 col-md-offset-3" ng-show="(filteredClothes | genderFilter:val | filter:priceFilter).length==0">
+    
+        
+            <img class="text-center" src="../assets/img/error.png">
+            <div class="errorText">Sorry, no results found!</div>
 </div>
 

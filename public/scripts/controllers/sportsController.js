@@ -41,7 +41,7 @@ angular.module('eCart')
 .filter('sportsFilter', function() {
 
     return function(filteredSports, val) {
-        if(val.length==0||(val[0]==false&&val[1]==false&&val[2]==false)){
+        if(val.length==0||(val[0]==false||val[1]==false||val[2]==false)){
             return filteredSports;
         }
         return filteredSports.filter(function(filteredSports) {

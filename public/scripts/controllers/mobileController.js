@@ -98,7 +98,7 @@ angular.module('eCart')
 .filter('brandFilter', function() {
 
     return function(filteredMobiles, val) {
-    	if(val.length==0||(val[0]==false&&val[1]==false&&val[2]==false)){
+    	if(val.length==0||(val[0]==false||val[1]==false||val[2]==false)){
     		return filteredMobiles;
     	}
         return filteredMobiles.filter(function(filteredMobiles) {
